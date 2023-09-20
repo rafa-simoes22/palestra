@@ -3,3 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color:;
+}
+section{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.conteudo{
+    background-color: aquamarine;
+}
+main{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 80px;
+    background-color: aliceblue;
+    border: solid;
+    
+}
+h1{
+    padding: 30px;
+    width: 900px;
+    height: auto;
+    border: solid;
+}
+.topico{
+    width: 600px;
+    justify-content: flex-start;
+    background-color: aqua;
+}
