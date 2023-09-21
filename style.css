@@ -21,22 +21,43 @@ h1{
     margin-top: 8%;
     margin-left: 25%;
 }
+h2{
+    color: rgb(87, 87, 243);
+}
 .imagem{
     margin-top: -200px; 
-    margin-left: 10%;
+    margin-left: 25%;
+    margin-right: 35%;
 }
 img{
-    height: 700px;
-    mar
+    height: 600px;
     max-width: 100%;
 }
 main{
-    background-color: red;
-    width: auto;
-    height: 300px;
+   max-width: 600%;
+   height: auto;
+   padding: 30%;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: justify;
 }
 footer{
-    background-color: chartreuse;
     width: auto;
-    height: 300px;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding: 30%;
+    padding-top: 20px;
+}
+.conteudo{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+.topico{
+    padding: 15px;
+}
+li{
+    list-style-type: none
 }
