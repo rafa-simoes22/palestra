@@ -3,36 +3,40 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color:;
-}
 section{
-    padding: 30px;
+    background-color: aqua;
+    width: auto;
+    height: 500px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-.conteudo{
-    background-color: aquamarine;
-}
-main{
-    padding: 30px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 80px;
-    background-color: aliceblue;
-    border: solid;
-    
+    justify-items: center;
+
 }
 h1{
-    padding: 30px;
-    width: 900px;
-    height: auto;
-    border: solid;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 35px;
+    width: 50%;
+    height: 15%;
+    margin-top: 8%;
+    margin-left: 25%;
 }
-.topico{
-    width: 600px;
-    justify-content: flex-start;
-    background-color: aqua;
+.imagem{
+    margin-top: -200px; 
+    margin-left: 10%;
+}
+img{
+    height: 700px;
+    mar
+    max-width: 100%;
+}
+main{
+    background-color: red;
+    width: auto;
+    height: 300px;
+}
+footer{
+    background-color: chartreuse;
+    width: auto;
+    height: 300px;
 }
